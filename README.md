@@ -20,15 +20,15 @@ Topic: Changepoints and events
 
 3. Data preparation:
   * Json business files are loaded
-  * On a per business basis, we will load the reviews which will be organized in a time series
 
 
 
-4. Modelling (Per Lappas, stay away from time series):
+
+4. Modeling (Per Lappas, stay away from time series):
 
   * For each business with at least 50 reviews:
     * Create a dict for each 1 month period and store the reviews in the dict
-    * Perform a statistical test (i.e. 1way t-test) to compare the # of reviews over each dict
+    * Perform a statistical test to compare the # of reviews over each dict
     * For changes that are significantly higher, isolate it, and perform a text analysis
     * Pull the phrases to see what has changed in the business
 
