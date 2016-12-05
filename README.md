@@ -38,3 +38,9 @@ Topic: Changepoints and events
 5. Evaluation:
 
   * Accuracy rates of predicting a flagged alert to a real life event of interest
+
+6. Runnning the program:
+
+  * Open Business with at least 500 reviews.ipynb to load the data and modify the file path to your local PC
+  * Run Overal T-Test
+  
